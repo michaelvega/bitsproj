@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #b4cfdb; /* Adjust the color to match the image background */
+}
+
+.profile {
+  background-color: #fff; /* Adjust the color to match the profile background */
+  width: 50%; /* Adjust width as necessary */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Adjust shadow to match image */
+  border-radius: 8px; /* Adjust border radius to match image */
+  text-align: center;
+}
+
+.profile-image img {
+  width: 16rem; /* Adjust to match image */
+  height: 16rem; /* Adjust to match image */
+  border-radius: 50%;
+  margin-bottom: 20px; /* Adjust to match image */
+}
+
+.profile-info {
+  color: #666; /* Adjust to match the text color in the image */
+  font-size: 1.3rem; /* Adjust to match the font size in the image */
+  line-height: 1.5; /* Adjust line height to match image */
+}
+
+
+.fun-fact-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#funFactButton {
+  background-color: #2585c9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 1rem;
+}
+
+#funFactButton:hover {
+  background-color: #65cdff; /* Darker green */
+}
+
+#factDisplay {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
